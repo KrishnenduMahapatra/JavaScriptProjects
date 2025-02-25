@@ -1,6 +1,6 @@
 const generateForm = document.querySelector(".generate-form");
 const imgGallery = document.querySelector(".image-gallery");
-const HUGGINGFACE_API_KEY = "Enter your API key here";
+import HUGGINGFACE_API_KEY from "./apikey.js";
 let isImageGenerating = false;
 
 const updateImageCard = (imgUrlArray) => {
